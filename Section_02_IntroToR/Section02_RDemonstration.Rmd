@@ -5,7 +5,8 @@ date: "9/3/2019"
 header-includes:
    - \usepackage{dcolumn}
 output:
-  pdf_document: default
+  pdf_document:
+    number_sections: true
   html_document:
     code_folding: hide
 editor_options:
@@ -172,6 +173,7 @@ abline(lm(logGDP ~ protection , data=colonials)) # line of best fit
 \item You may also find [https://www.r-bloggers.com/](https://www.r-bloggers.com/) to be a useful resource for specific questions.
 
 \item Finally, we include two useful resources that summarize useful R commands and common RMarkdown features.
+\end{itemize}
 
 \newpage
 \centering\includegraphics[page=1,angle=90,width=\textwidth]{RCheatSheet.pdf}
